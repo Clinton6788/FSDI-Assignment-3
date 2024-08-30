@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farenheit and Celsius Converter</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header class="header-main">
+        <h1>Temperature Convertinator 3000</h1>
+    </header>    
+    <main class="container">
+        <div class="options-flex">
+            <div id="title"></div>
+            <img class="sun-img" src="./img/sun.webp" alt="sun">
+            <select class="title-list" name="list" id="choice">
+                <option value="">---- Please choose an option ----</option>
+                <option value="1">Farenheit to Celsius</option>
+                <option value="2">Celsius to Farenheit</option>
+            </select>
+        </div>
+        <div class="main-flex">
+            <div>
+                <input class="input-box" type="number" id="inputDegree">
+                <p class="letter-format" id="inputLetter">?</p>
+            </div>
+            <div class="img-flex">
+                
+                <img class="arrow-img" src="./img/arrow.png" alt="arrow">
+            </div>
+            <div>
+                <p class="output-box" id="outputDegree"></p>
+                <p class="letter-format" id="outputLetter">?</p>
+            </div>
+        </div>
+        <script src="./index.js"></script>
+    </main>
+    <footer class="footer">
+        <h2>Thank you for visiting!</h2>
+    </footer>
+</body>
+</html>
