@@ -24,7 +24,7 @@ document.querySelector('#choice').addEventListener("change",function(){
 
 --- document.querySelector('#inputDegree, #choice').addEventListener("change",function(){ --- 
 
-but it only worked for choice. I don't want 2 seperate functions, just 2 listeners that will run 1 function.*/
+but it only worked for #choice. I don't want 2 seperate functions, just 2 listeners that will run 1 function.*/
 document.querySelector('#inputDegree').addEventListener("change",function(){
     let choice = document.getElementById("choice").value
     let inputTemp = document.getElementById("inputDegree").value
